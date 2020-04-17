@@ -4,7 +4,7 @@ CREATE TABLE Diamond(
     cut VARCHAR2(9) NOT NULL,
     clarity VARCHAR2(4) NOT NULL,
     price INT NOT NULL,
-    carat_weight NUMBER(3,2) NOT NULL);
+    carat_weight VARCHAR2(4) NOT NULL);
 ALTER TABLE Diamond
     ADD CONSTRAINT diamond_index_pk PRIMARY KEY(diamond_index);
 
