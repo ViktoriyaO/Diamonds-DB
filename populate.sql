@@ -1,4 +1,4 @@
---Додавання інформації в таблицю Diamond
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ Diamond
 
 INSERT INTO Diamond (diamond_index, color, cut, clarity, price,carat_weight)
 VALUES ('1', 'E', 'Ideal', 'SI2', '326', '0.23');
@@ -24,7 +24,7 @@ VALUES ('7', 'D', 'Very Good', 'SI2', '336', '0.24');
 INSERT INTO Diamond (diamond_index, color, cut, clarity, price,carat_weight)
 VALUES ('8', 'H', 'Fair', 'VVS1', '337', '0.26');
 
---Додавання інформації в таблицю Desctiption
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ  Desctiption
 
 INSERT INTO Description (color) VALUES ('D');
 
@@ -40,7 +40,7 @@ INSERT INTO Description (color) VALUES ('I');
 
 INSERT INTO Description (color) VALUES ('J');
 
---Додавання інформації в таблицю Category
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ  Category
 
 INSERT INTO Category (cut) VALUES ('Ideal');
 
@@ -52,7 +52,7 @@ INSERT INTO Category (cut) VALUES ('Good');
 
 INSERT INTO Category (cut) VALUES ('Fair');
 
---Додавання інформації в таблицю Clarity
+--Р”РѕРґР°РІР°РЅРЅСЏ С–РЅС„РѕСЂРјР°С†С–С— РІ С‚Р°Р±Р»РёС†СЋ Clarity
 
 INSERT INTO Clarity (clarity) VALUES ('IF');
 
