@@ -11,7 +11,7 @@ query1 = '''
 SELECT cut, COUNT(diamond_index) AS count
     FROM Diamond
 GROUP BY cut
-ORDER BY count DESC;
+ORDER BY count DESC
 '''
 
 cursor.execute(query1)
@@ -28,7 +28,7 @@ SELECT
     (SELECT COUNT(diamond_index) AS count
     FROM Diamond)t   
 GROUP BY  color,
-        t.count;
+        t.count
 '''
 
 cursor.execute(query2)
@@ -43,7 +43,7 @@ SELECT Clarity.clarity,
     FROM Diamond 
     INNER JOIN Clarity ON Diamond.clarity = Clarity.clarity
 GROUP BY Clarity.clarity
-ORDER BY count DESC;
+ORDER BY count DESC
 '''
 
 cursor.execute(query3)
