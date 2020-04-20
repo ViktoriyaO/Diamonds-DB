@@ -1,7 +1,7 @@
 import cx_Oracle
 
-username = 'sys'
-password = 'Xmaswithnk2018'
+username = 'viktoriya'
+password = 'viktoriya'
 databaseName = 'localhost:1521/xe'
 connection = cx_Oracle.connect(username, password, databaseName)
 cursor = connection.cursor()
